@@ -1,0 +1,134 @@
+body{
+    background-color: mediumorchid;
+    /* margin-left: 300px; */
+}
+
+.fullbody{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container{
+    margin-left: 36%;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+    background-color: hotpink;
+    width: 400px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+#inputval{
+    color: white;
+    box-sizing: border-box;
+    padding-left: 0px;
+    font-size: 20px;
+    width: 424px;
+    height: 2rem;
+    border: 1px solid gray;
+    background-color: rgb(235, 65, 88);
+}
+
+#input::placeholder{
+    padding-top: 2rem;
+    /* padding-left: rem; */
+    font-size: 22px;
+    color: white;
+    /* margin-left: 300px; */
+}
+
+.box{
+    text-align: center;
+    width: 5rem;
+    height: 2rem;
+    /* background-color: white; */
+}
+
+
+.btn{
+    font-size: 1rem;
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    /* background-color: rgb(219, 209, 209); */
+}
+
+.btn:hover{
+    transform: translateY(-1px);
+    box-shadow: 2px 2px white;
+    transition: 0.1;
+}
+
+#btn_equal{
+    background-color: rgb(37, 37, 223);
+    color: white;
+    font-size: 22px;
+}
+
+#btn_equal:hover{
+    box-shadow: 2px 2px rgb(37, 37, 223);
+}
+
+#btn_1{
+    background-color: white;
+}
+
+#btn_2{
+    background-color: white;
+}
+
+#btn_3{
+    background-color: white;
+}
+
+#btn_4{
+    background-color: white;
+}
+
+#btn_5{
+    background-color: white;
+}
+
+#btn_6{
+    background-color: white;
+}
+
+#btn_7{
+    background-color: white;
+}
+
+#btn_8{
+    background-color: white;
+}
+
+#btn_9{
+    background-color: white;
+}
+
+#btn_0{
+    background-color: white;
+}
+
+#btn_dot{
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
